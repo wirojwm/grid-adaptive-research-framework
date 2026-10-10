@@ -1,0 +1,31 @@
+# Secrets / environments
+.env
+.env.*
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Data and local artifacts (never commit market data)
+data/raw/
+data/processed/
+*.parquet
+*.csv.local
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
