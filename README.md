@@ -1,6 +1,8 @@
 # Grid Adaptive
 ## Adaptive Grid Strategy Research & Validation Framework
 
+[![CI](https://github.com/wirojwm/grid-adaptive-research-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/wirojwm/grid-adaptive-research-framework/actions/workflows/ci.yml)
+
 This repository is a quantitative research framework for designing, testing, falsifying, and validating fixed and adaptive grid trading hypotheses.
 
 Its purpose is not to maximize historical backtest profit.
