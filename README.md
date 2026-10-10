@@ -15,6 +15,22 @@ Its purpose is to determine whether an apparent trading edge is real, robust, ec
 
 The framework grew out of extensive internal research. This repository contains the reusable code, tests and methodology only. It contains no market data and publishes no empirical results about any market.
 
+## Evidence at a glance
+
+**Implemented and tested framework components:** Fixed Grid control mechanics, execution-cost simulation, accounting and metrics, data validation and provenance utilities, ATR and DMI/ADX features, and experiment/reproducibility utilities. Automated tests use synthetic data.
+
+**Public validation checkpoint:** [v0.1.0](https://github.com/wirojwm/grid-adaptive-research-framework/releases/tag/v0.1.0) at commit `45c47ffc991849f40e0b8c36e05caf2a1357b069` — [150 public/synthetic tests passed](https://github.com/wirojwm/grid-adaptive-research-framework/actions/runs/38039317857) in GitHub Actions. This is evidence of tested framework behavior, not real-market economic edge or strategy profitability.
+
+**Research status:** Fixed Grid is a mechanically validated research control; its economic edge remains unproven. No real-market empirical verdict is published here. Adaptive grid enhancements, regime/risk guards, recentering, dynamic sizing, and future ML filters remain research candidates, not validated improvements.
+
+**Explore the evidence:**
+
+- [Research methodology](docs/research_methodology.md) and [validation workflow](docs/validation_workflow.md)
+- [Architecture](docs/architecture.md) and [Fixed Grid mechanics](docs/fixed_grid_mechanics.md)
+- [Verdict definitions and evidence limitations](docs/research_verdicts.md)
+- [Synthetic example](examples/synthetic_fixed_grid.py) and [automated tests](tests/)
+- [Public v0.1.0 release](https://github.com/wirojwm/grid-adaptive-research-framework/releases/tag/v0.1.0) and [CI run](https://github.com/wirojwm/grid-adaptive-research-framework/actions/runs/38039317857)
+
 ## Research philosophy
 
 ```
